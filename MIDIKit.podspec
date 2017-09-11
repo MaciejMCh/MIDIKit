@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
 
+  s.osx.deployment_target = '10.12'
   s.osx.source_files = 'MIDIKit/*'
 end
